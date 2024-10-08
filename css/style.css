@@ -1,0 +1,17 @@
+#fullWidthSlider {
+    /* Selecciona el elemento con el ID "fullWidthSlider" (el contenedor del carrusel) */
+    width: 100%;
+    /* Establece el ancho del carrusel para que ocupe el 100% del contenedor padre */
+    height: 500px;
+    /* Fija la altura del carrusel en 500px */
+}
+
+.carousel-item, .carousel-item img {
+    /* Aplica las siguientes reglas tanto a los elementos con la clase "carousel-item" como a las imágenes dentro de esos elementos */
+    width: 100%;
+    /* Establece el ancho del elemento e imagen para que ocupen el 100% del contenedor */
+    height: 500px;
+    /* Fija la altura de cada elemento e imagen del carrusel a 500px, coincidiendo con la altura del carrusel */
+    object-fit: cover;
+    /* Ajusta el contenido de la imagen para que cubra el área del contenedor sin distorsionar la imagen; recorta la imagen si es necesario para mantener su proporción */
+}
